@@ -1,0 +1,55 @@
+
+/* =====================================================
+header section start here
+======================================================== */
+
+.navbar {
+    background: #FFFFFF;
+    padding: 26px 0;
+}
+
+
+.button a{
+    font-family: "Jost", sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    background: #E5745D;
+    padding: 21px 40px;
+    position: relative;
+    }
+
+    .button a::after{
+        width: 174px;
+        height: 57px;
+        border: 2px solid #FFFFFF;
+        position: absolute;
+        top: 5px;
+        left: 8px;
+        content: "";
+    }
+
+    .navbar-nav {
+        gap:0 48px
+    }
+
+    .nav-link{
+        font-family: "Jost", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #00413D;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        
+        
+    }
+
+    .nav-link:hover{
+        color: #E5745D;
+    }
+
+
+/* =====================================================
+header section end here
+======================================================== */
