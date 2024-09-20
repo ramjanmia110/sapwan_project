@@ -115,7 +115,7 @@ banner section start here
     top: 0;
     right: -45%;
     transition: 0.5s;
-    background-image: url(/image/ramjan.jpg);
+    background-image: url(../image/ramjan.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
