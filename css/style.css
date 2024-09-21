@@ -30,6 +30,51 @@ common section start here
 	content: "";
 }
 
+
+.title h4{
+    color: #E5745D;
+    font-family: "Vollkorn", serif;
+    font-size:18px ;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+}
+
+.title h4::after {
+	width: 45px;
+	height: 2px;
+	background: #E5745D;
+	position: absolute;
+	top: 6px;
+	left: 39%;
+	content: "";
+}
+
+.title h4::before {
+	width: 20px;
+	height: 20px;
+	background: #E5745D;
+	border-radius: 50%;
+	position: absolute;
+	top: -3%;
+	left: 42%;
+	content: "";
+}
+.title h2{
+    color: #00413D;
+    font-family: "Vollkorn", serif;
+    font-size:50px ;
+    font-weight: 600;
+    width: 531px;
+    text-transform: capitalize;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+
+
+
 /* =====================================================
 common sectin end here
 ======================================================== */
@@ -108,12 +153,12 @@ banner section start here
 }
 
 .banner .overlay{
-    width: 45%;
+    width: 46%;
     height: 100%;
     background: gray;
     position: absolute;
     top: 0;
-    right: -45%;
+    right: -46%;
     transition: 0.5s;
     background-image: url(../image/ramjan.jpg);
     background-repeat: no-repeat;
@@ -160,4 +205,72 @@ banner section start here
 
 /* =====================================================
 banner section end here
+======================================================== */
+
+
+
+/* =====================================================
+card section start here
+======================================================== */
+.card_section{
+    padding: 220px 0;
+}
+
+.card_section .title h4{
+    margin-bottom: 11px;
+}
+
+
+.card_section .title h2{
+    margin-bottom: 40px;
+}
+
+
+.card{
+    width: 100%;
+    height: 400px;
+    border: 0;
+    box-shadow: 0px 3px 4px   rgba(0,0,0,0.3);
+}
+
+.card-img-top{
+    width: 30%;
+    padding-top: 50px;
+    padding-left: 35px;
+    margin-bottom: 26px;
+}
+
+.card-body{
+    padding: 0;
+    padding-left: 35px;
+    
+}
+
+.card-body i{
+    color: #00413D;
+    cursor: pointer;
+    }
+
+.card-body i:hover{
+    color: #E5745D;
+}
+
+.card-title{
+    font-family: "Vollkorn", serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: #00413D;
+    margin-bottom: 15px;
+}
+
+.card-text{
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #00413D;
+    width: 245px;
+    margin-bottom: 30px;
+}
+/* =====================================================
+card section end here
 ======================================================== */
