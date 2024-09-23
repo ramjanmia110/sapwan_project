@@ -2,6 +2,9 @@
 /* =====================================================
 common section start here
 ======================================================== */
+.box{
+    display: flex;
+}
 .common-btn{
    width: 190px;
    height: 70px;
@@ -213,7 +216,8 @@ banner section end here
 card section start here
 ======================================================== */
 .card_section{
-    padding: 220px 0;
+    padding-top: 220px;
+    padding-bottom: 120px;
 }
 
 .card_section .title h4{
@@ -273,4 +277,73 @@ card section start here
 }
 /* =====================================================
 card section end here
+======================================================== */
+
+
+/* =====================================================
+about section start here
+======================================================== */
+.about{
+    padding: 80px 0;
+}
+.about .box{
+    display: flex;
+    gap:0px 20px
+}
+
+
+.two-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.about .title h4{
+    text-align: start;
+    margin-top: 30px;
+    padding-left: 80px;
+}
+
+.about .title h4::after {
+	top: 10px;
+	left: 1%;
+	
+}
+
+.about .title h4::before {
+	top: 2%;
+	left: 8%;
+	
+}
+
+.about .title h2{
+   width: 644px;
+   text-align: start;
+   margin-top: 14px;
+}
+
+.about p{
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #00413D;
+    
+}
+
+.about .common-btn{
+    margin-top: 50px;
+}
+
+.about .common-btn a::after {
+	left: -34px;
+
+    
+	
+}
+
+
+
+/* =====================================================
+about section end here
 ======================================================== */
