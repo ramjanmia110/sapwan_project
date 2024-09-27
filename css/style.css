@@ -9,6 +9,10 @@ common section start here
     padding: 0;
   }
 
+  ol,ul{
+    list-style: none;
+  }
+
 .box{
     display: flex;
 }
@@ -428,4 +432,109 @@ progressbar section start here
 
 /* =====================================================
 progressbar section end here
+======================================================== */
+
+
+/* =====================================================
+recent project section start here
+======================================================== */
+
+
+.recent_project .common-btn a::after {
+	
+	left: -33px;
+	
+}
+
+.recent_project .common-btn{
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+
+
+.recent_project .title h4{
+    text-align: left;
+    padding:0 74px;
+}
+
+.recent_project .title h4::before {
+	left:3%;
+	
+}
+
+.recent_project .title h4::after {
+	
+	left: 0;
+	
+}
+
+.recent_project .title h2 {
+	
+	margin: 0; 
+	text-align: left; 
+}
+
+
+.recent_project .row .card{
+    width: 100%;
+    height: 540px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border: none !important;
+    background: white;
+    box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.3) !important;
+    
+}
+
+.recent_project .card .card_image01 img{
+    width:100%;
+    height:270px ;
+}
+
+
+.recent_project .card-body .card-title{
+    font-family: "Vollkorn", serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #E5745D;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.recent_project .card-body h2{
+    font-family: "Vollkorn", serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #00413D;
+    width: 304px;
+    margin-bottom: 10px;
+    line-height: 35px;
+}
+
+.recent_project .card-body p{
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #00413d;
+    width: 289px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.recent_project .card-body .view_case i{
+  
+  padding-left: 6px;
+}
+
+.recent_project .card-body .view_case a{
+    text-decoration: none;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #00413D;
+}
+
+/* =====================================================
+recent project section end here
 ======================================================== */
