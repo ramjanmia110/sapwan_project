@@ -11,6 +11,8 @@ common section start here
 
   ol,ul{
     list-style: none;
+    padding: 0;
+    margin: 0;
   }
 
 .box{
@@ -537,4 +539,123 @@ recent project section start here
 
 /* =====================================================
 recent project section end here
+======================================================== */
+
+/* =====================================================
+portfolio section start here
+======================================================== */
+.portfolio_section{
+ padding-bottom: 142px;
+}
+
+.portfolio_section ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    margin-top: 24px;
+    margin-bottom: 44px;
+    
+    
+   
+}
+
+.portfolio_section ul li{
+    font-family: "Vollkorn", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #00413D;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+.portfolio_section ul li::after {
+	width: 0;
+	height: 2px;
+	background: #E5745D;
+	position: absolute;
+	top: 101%;
+	left: 0%;
+	content: "";
+    transition: 0.4s;
+}
+
+.portfolio_section ul li:hover::after{
+  width: 100%;
+}
+
+
+.portfolio_section .card{
+    width: 100%;
+    height: 520px;
+    background: #C4C4C4;
+    position: relative;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.portfolio_section .card .card-body{
+    background: #00413D;
+    margin-top: 420px;
+    
+    
+}
+
+.portfolio_section .card .card-body .card-title{
+    font-family: "Vollkorn", serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-top: 22px;
+    
+}
+
+.portfolio_section .card .card-body .card-text{
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    
+}
+
+.portfolio_section .card .portfolio_icon{
+    width: 70px;
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    right:30px;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.portfolio_section .card .portfolio_icon i{
+    color: #E5745D;
+    font-size: 16px;
+}
+
+.portfolio_section .card:hover{
+ background: rgba(0, 65, 61,0.25);
+}
+
+.portfolio_section .card:hover .portfolio_icon{
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+/* =====================================================
+portfolio section end here
 ======================================================== */
