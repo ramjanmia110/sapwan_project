@@ -738,6 +738,13 @@ feedback section start here
     padding-left: 340px;
 }
 
+.dot_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 72px;
+}
+
  
 
  
@@ -745,4 +752,85 @@ feedback section start here
 
 /* =====================================================
 feedback section end here
+======================================================== */
+
+
+/* =====================================================
+contact section start here
+======================================================== */
+.contact{
+    padding-top: 113px;
+    padding-bottom: 127px;
+}
+
+.contact .contact_img img{
+    width:100%;
+    height:586px ;
+}
+
+.contact .title h4{
+    text-align: left;
+    padding-left: 75px;
+    margin-top: 60px;
+
+}
+
+.contact .title h2{
+    text-align: left;
+    width:100%;
+    margin-bottom: 40px;
+}
+
+.contact .title h4::after {
+	top: 10px;
+	left: 0; 
+	
+}
+
+.contact .title h4::before {
+	top: 1%; 
+	left: 7%;
+   
+	
+}
+
+.contact .common-btn{
+margin-top: 50px;
+}
+
+.contact .common-btn a::after {
+	left: -45px;
+	
+}
+
+/* contactform */
+.contact-form-container{
+    width: 100%;
+}
+
+.contact .contact-form .form-group{
+    display: flex;
+    gap:0 70px;
+    margin-bottom: 57px;
+}
+
+.contact .contact-form .form-group1 input{
+    width: 92%;
+}
+
+.contact .contact-form input{
+    width: 40%;
+    border: none;
+    background: none;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 65, 61,0.7);
+    border-bottom: 2px solid rgba(0, 65, 61,0.10);
+    outline: none;
+    padding-bottom: 12px;
+}
+
+/* =====================================================
+contact section end here
 ======================================================== */
