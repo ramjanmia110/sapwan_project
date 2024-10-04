@@ -789,7 +789,7 @@ contact section start here
 
 .contact .title h4::before {
 	top: 1%; 
-	left: 7%;
+	left: 6%;
    
 	
 }
@@ -810,16 +810,17 @@ margin-top: 50px;
 
 .contact .contact-form .form-group{
     display: flex;
-    gap:0 70px;
+    justify-content: space-between;
+    gap: 0 70px;
     margin-bottom: 57px;
 }
 
 .contact .contact-form .form-group1 input{
-    width: 92%;
+    width: 100%;
 }
 
 .contact .contact-form input{
-    width: 40%;
+    width: 45%;
     border: none;
     background: none;
     font-family: "Jost", sans-serif;
@@ -833,4 +834,87 @@ margin-top: 50px;
 
 /* =====================================================
 contact section end here
+======================================================== */
+
+
+/* =====================================================
+blog section start here
+======================================================== */
+.blog{
+margin-top: 127px;
+margin-bottom: 120px;
+}
+
+.blog .title{
+    margin-bottom: 50px;
+}
+
+.blog .card{
+    width: 100% !important;
+    height: 560px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+    
+}
+
+.blog .card .card-body{
+ padding-left: 0px !important;
+ padding: 30px !important;
+}
+
+
+
+.blog .card .blog_image img{
+    width: 100%;
+}
+
+.blog .card .card-body .box{
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+.blog .card .card-body .box h4{
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #E5745D;
+}
+
+.blog .card .card-body .box span{
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #00413D;
+}
+
+.blog .card .card-body .card-title{
+    font-family: "Vollkorn", serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #00413D;
+    width: 281px;
+}
+
+.blog .card .card-body .card-text{
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #00413D;
+    width: 325px;
+}
+
+
+
+.blog .card .card-body .more_section a{
+    text-decoration: none;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #00413D;
+}
+
+.blog .card .card-body .more_section i{
+    margin-left: 10px;
+}
+/* =====================================================
+blog section end here
 ======================================================== */
