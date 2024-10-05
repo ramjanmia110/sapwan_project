@@ -1,0 +1,96 @@
+@media (min-width:320px) and (max-width:575.99px){
+    .nav-link {
+        text-align: center;
+        background: #F68500;
+        margin-bottom: 10px;
+        color: white;
+        font-size: 20px;
+        border-radius: 6px;
+    }
+
+    .nav-link:hover{
+        color: #00433E;
+    }
+
+    #navbarSupportedContent{
+        margin-top: 20px;
+        
+    }
+
+    #navbarSupportedContent .button{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .navbar .container{
+        padding: 0 20px;
+        
+    }
+}
+
+
+@media (min-width:576px) and (max-width:767.99px){
+    .nav-link {
+        text-align: center;
+        background: #F68500;
+        margin-bottom: 10px;
+        color: white;
+        font-size: 20px;
+        border-radius: 6px;
+        
+    }
+
+    .nav-link:hover{
+        color: #00433E;
+    }
+
+    #navbarSupportedContent{
+        margin-top: 20px;
+        
+    }
+
+    #navbarSupportedContent .button{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .navbar .container{
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.99px){
+    .nav-link {
+        text-align: center;
+        background: #396B69;
+        margin-bottom: 10px;
+        color: white;
+        font-size: 20px;
+        border-radius: 6px;
+        }
+
+
+        .nav-link:hover{
+            color: #F08508;
+        }
+    
+        #navbarSupportedContent{
+            margin-top: 20px;
+            
+        }
+    
+        #navbarSupportedContent .button{
+            margin-top: 30px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    
+        .navbar .container{
+            max-width: 100%;
+            padding: 0 20px;
+        }
+}
+
