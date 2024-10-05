@@ -27,6 +27,41 @@
         padding: 0 20px;
         
     }
+
+   
+
+
+    /* banner section start here */
+    .banner{
+        padding: 58px 0;
+            
+        }
+
+    .banner h1{
+       font-size: 20px;
+       line-height: 40px;
+       
+    }
+
+    .banner p {
+        font-size: 16px;
+        width: 517px;
+        line-height: 40px;
+        padding-right: 45px;
+        
+    }
+
+
+    .banner .overlay{
+        width:0;
+        
+        }
+    
+    
+
+
+    
+    /* banner section end here */
 }
 
 
@@ -60,6 +95,44 @@
         max-width: 100%;
         padding: 0 20px;
     }
+
+
+    /* banner section start here */
+    .banner{
+        padding: 58px 0;
+            
+        }
+
+    .banner h1{
+        font-size: 45px;
+        line-height: 66px;
+        
+     }
+ 
+     .banner p {
+         font-size: 20px;
+         width: 676px;
+         line-height: 40px;
+         padding-right: 45px;
+         
+     }
+
+     .banner .container{
+        max-width: 100%;
+        
+    }
+
+    .banner .overlay{
+        width:0;
+        
+        }
+    
+    
+
+ 
+ 
+     
+     /* banner section end here */
 }
 
 @media (min-width:768px) and (max-width:991.99px){
@@ -92,5 +165,110 @@
             max-width: 100%;
             padding: 0 20px;
         }
+
+        /* banner section start here */
+    .banner{
+        padding: 58px 30px;
+            
+        }
+
+    .banner h1{
+        font-size: 60px;
+        line-height: 66px;
+        
+     }
+ 
+     .banner p {
+         font-size: 20px;
+         width: 676px;
+         line-height: 40px;
+         padding-right: 45px;
+         
+     }
+
+     .banner .container{
+        max-width: 100%;
+        
+    }
+
+    .banner .overlay{
+        width:0;
+        
+        }
+    
+    
+
+ 
+ 
+     
+     /* banner section end here */
 }
+
+@media (min-width:992px) and (max-width:1199.99px){
+/* bannar section start here */
+.banner{
+    padding: 58px 30px;
+        
+    }
+
+.banner h1{
+    font-size: 90px;
+    line-height: 116px;
+    
+ }
+
+ .banner .container{
+    max-width: 100%;
+    
+}
+
+.banner .overlay{
+    width:0;
+    
+    }
+
+
+
+
+/* banner section end here */
+}
+
+
+@media (min-width:1200px) and (max-width:1399.99px){
+/* banner section start here */
+.banner .container{
+    max-width: 100%;
+    
+}
+
+.banner{
+    padding: 58px 30px;
+        
+    }
+/* banner section end here */
+}
+
+
+/* @media (min-width:1400px) and (max-width:1699.99px){
+   
+    .banner .container{
+        max-width: 100%;
+        
+    }
+    
+    .banner{
+        padding: 58px 30px;
+            
+        }
+
+        .banner .overlay{
+            right: 0;
+            
+            }
+        
+        .banner:hover .overlay{
+            right: 0;
+        } 
+    
+    } */
 
