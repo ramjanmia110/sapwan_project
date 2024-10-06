@@ -38,14 +38,15 @@
         }
 
     .banner h1{
-       font-size: 20px;
+       font-size: 30px;
        line-height: 40px;
+       width: 100%;
        
     }
 
     .banner p {
-        font-size: 16px;
-        width: 517px;
+        font-size: 18px;
+        width: 100%;
         line-height: 40px;
         padding-right: 45px;
         
@@ -62,6 +63,37 @@
 
     
     /* banner section end here */
+
+
+    /* card section start here */
+    .card_section{
+        padding-top: 80px;
+        padding-bottom: 0;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+    .title h2 {
+     
+        font-size: 30px;
+        width: 100%;
+        
+    }
+
+    .title h4::after {
+        left: 22%;
+        
+    }
+
+    .title h4::before {
+        top: -11%;
+        left: 30%;
+        
+    }
+
+   
+    /* card section end here */
 }
 
 
@@ -104,14 +136,15 @@
         }
 
     .banner h1{
-        font-size: 45px;
+        font-size: 54px;
         line-height: 66px;
+        width: 100%;
         
      }
  
      .banner p {
-         font-size: 20px;
-         width: 676px;
+         font-size: 24px;
+         width: 100%;
          line-height: 40px;
          padding-right: 45px;
          
@@ -133,6 +166,36 @@
  
      
      /* banner section end here */
+
+     /* card section start here */
+    .card_section{
+        padding-top: 80px;
+        padding-bottom: 0;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+    .title h2 {
+     
+        font-size: 48px;
+        width: 100%;
+        
+    }
+
+    .title h4::after {
+        left: 22%;
+        
+    }
+
+    .title h4::before {
+        top: -11%;
+        left: 30%;
+        
+    }
+
+   
+    /* card section end here */
 }
 
 @media (min-width:768px) and (max-width:991.99px){
@@ -173,14 +236,15 @@
         }
 
     .banner h1{
-        font-size: 60px;
-        line-height: 66px;
+        font-size: 70px;
+        line-height: 88px;
+        width: 100%;
         
      }
  
      .banner p {
-         font-size: 20px;
-         width: 676px;
+         font-size: 22px;
+         width: 100%;
          line-height: 40px;
          padding-right: 45px;
          
@@ -196,12 +260,37 @@
         
         }
     
-    
+    /* banner section end here */
 
- 
- 
+     /* card section start here */
+     .card_section{
+        padding-top: 80px;
+        padding-bottom: 0;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+    .title h2 {
      
-     /* banner section end here */
+        font-size: 65px;
+        width: 100%;
+        
+    }
+
+    .title h4::after {
+        left: 31%;
+        
+    }
+
+    .title h4::before {
+        top: -11%;
+        left: 37%;
+        
+    }
+
+   
+    /* card section end here */
 }
 
 @media (min-width:992px) and (max-width:1199.99px){
@@ -214,8 +303,14 @@
 .banner h1{
     font-size: 90px;
     line-height: 116px;
+    width: 100%;
     
  }
+
+ .banner p {
+    font-size: 24px;
+    width: 100%;
+    }
 
  .banner .container{
     max-width: 100%;
@@ -231,6 +326,36 @@
 
 
 /* banner section end here */
+
+ /* card section start here */
+ .card_section{
+    padding-top: 80px;
+    padding-bottom: 0;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+.title h2 {
+ 
+    font-size: 80px;
+    width: 100%;
+    
+}
+
+.title h4::after {
+    left: 36%;
+    
+}
+
+.title h4::before {
+    top: -11%;
+    left: 40%;
+    
+}
+
+
+/* card section end here */
 }
 
 
@@ -245,7 +370,49 @@
     padding: 58px 30px;
         
     }
+
+    .banner h1{
+        font-size: 90px;
+        line-height: 116px;
+        width: 100%;
+        
+     }
+    
+     .banner p {
+        font-size: 30px;
+        width: 100%;
+        }
 /* banner section end here */
+
+/* card section start here */
+.card_section{
+    padding-top: 80px;
+    padding-bottom: 0;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+.title h2 {
+ 
+    font-size: 84px;
+    width: 100%;
+    
+}
+
+.title h4::after {
+    left: 36%;
+    
+}
+
+.title h4::before {
+    top: -11%;
+    left: 40%;
+    
+}
+
+
+/* card section end here */
 }
 
 
