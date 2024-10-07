@@ -28,6 +28,8 @@
         
     }
 
+    
+
    
 
 
@@ -72,7 +74,7 @@
     }
 
     .card {
-        margin-bottom: 20px;
+        margin-bottom:20px;
     }
     .title h2 {
      
@@ -133,6 +135,99 @@
         margin-bottom: 20px;
     }
     /* progress bar section end here */
+
+    /* recent project start here */
+    .recent_project .title h4::before {
+        left: 8%;
+    }
+
+    .recent_project .card-body h2 {
+        width: 100%;
+        
+    }
+
+    .recent_project .card-body p {
+        width: 100%;
+        
+    }
+
+    .recent_project .row .card {
+        margin-top: 30px;
+        margin-bottom: 0px;
+       
+    }
+
+    .recent_project .common-btn {
+        margin: 30px auto;
+        margin-bottom: 60px;
+    }
+    /* recent project end here */
+
+    /* myportfolio start here */
+    .title h4::before {
+        left: 34%;
+    }
+
+    .title h4::after {
+        left: 26%;
+    }
+
+
+    .portfolio_section ul {
+        column-gap: 20px;
+       
+    }
+
+    .row-gap-4 {
+        row-gap: 0.5rem !important;
+    }
+    /* myportfoli end here */
+
+    /* feedback section start here */
+    .portfolio_section {
+        padding-bottom: 20px;
+    }
+
+    .title h4::before {
+        left: 22%;
+    }
+
+    .title h4::after {
+        left: 14%;
+    }
+
+    .test .row .detail_info p {
+       width: 100%;
+        
+    }
+
+    .test .row .detail_info {
+      margin-bottom: 0;
+       
+    }
+
+    .test .box1 {
+        padding-left: 62px;
+    }
+
+    .test .box {
+        
+        margin-bottom:0;
+        
+    }
+    /* feedback section end here */
+
+    /* contact section start here */
+    .contact {
+        padding-top: 40px;
+        padding-bottom: 0;
+        
+    }
+
+    .contact .title h4::before {
+        left: 8%;
+    }
+    /* contact section end here */
 }
 
 
@@ -167,6 +262,8 @@
         padding: 0 20px;
     }
 
+    
+
 
     /* banner section start here */
     .banner{
@@ -199,12 +296,7 @@
         
         }
     
-    
-
- 
- 
-     
-     /* banner section end here */
+    /* banner section end here */
 
      /* card section start here */
     .card_section{
@@ -275,6 +367,79 @@
         margin-bottom: 20px;
     }
     /* progress bar section end here */
+
+    /* recent project start here */
+    .recent_project .title h4::before {
+        left: 8%;
+    }
+
+    .recent_project .card-body h2 {
+        width: 100%;
+        
+    }
+
+    .recent_project .card-body p {
+        width: 100%;
+        
+    }
+
+    .recent_project .row .card {
+        margin-top: 30px;
+        margin-bottom: 0px;
+       
+    }
+
+    .recent_project .common-btn {
+        margin: 30px auto;
+        margin-bottom: 60px;
+    }
+    /* recent project end here */
+
+     /* myportfolio start here */
+    
+    .row-gap-4 {
+        row-gap: 0.5rem !important;
+    }
+    /* myportfoli end here */
+
+     /* feedback section start here */
+     .portfolio_section {
+        padding-bottom: 20px;
+    }
+
+   .test .row .detail_info p {
+       width: 100%;
+        
+    }
+
+    .test .row .detail_info {
+      margin-bottom: 0;
+       
+    }
+
+    .test .box1 {
+        padding-left: 62px;
+    }
+
+    .test .box {
+        
+        margin-bottom:0;
+        
+    }
+    /* feedback section end here */
+
+    /* contact section start here */
+    .contact {
+        padding-top: 40px;
+        padding-bottom: 0;
+        
+    }
+
+    
+    /* contact section end here */
+
+
+    
 }
 
 @media (min-width:768px) and (max-width:991.99px){
@@ -307,6 +472,8 @@
             max-width: 100%;
             padding: 0 20px;
         }
+
+       
 
         /* banner section start here */
     .banner{
@@ -410,6 +577,93 @@
         margin-bottom: 20px;
     }
     /* progress bar section end here */
+
+
+    /* recent project start here */
+    .recent_project .title h4::before {
+        left: 6%;
+    }
+
+    .recent_project .card-body h2 {
+        width: 100%;
+        
+    }
+
+    .recent_project .card-body p {
+        width: 100%;
+        
+    }
+
+    .recent_project .row .card {
+        margin-top: 30px;
+        margin-bottom: 0px;
+       
+    }
+
+    .recent_project .common-btn {
+        margin: 30px auto;
+        margin-bottom: 60px;
+    }
+    /* recent project end here */
+
+    /* myportfolio start here */
+    
+    .row-gap-4 {
+        row-gap: 0.5rem !important;
+    }
+    /* myportfoli end here */
+
+     /* feedback section start here */
+     .portfolio_section {
+        padding-bottom: 20px;
+    }
+
+    .title h4::before {
+        left: 32%;
+    }
+
+    .title h4::after {
+        left: 26%;
+    }
+
+    .test .row .detail_info p {
+       width: 100%;
+        
+    }
+
+    .test .row .detail_info {
+      margin-bottom: 0;
+       
+    }
+
+    .test .box1 {
+        padding-left: 62px;
+    }
+
+    .test .box {
+        
+        margin-bottom:0;
+        
+    }
+    /* feedback section end here */
+
+
+    /* contact section start here */
+    .contact {
+        padding-top: 40px;
+        padding-bottom: 0;
+        
+    }
+
+    .contact .title h4::before {
+        left: 8%;
+    }
+
+    .contact .title h2 {
+        font-size: 43px;
+    }
+    /* contact section end here */
+
 }
 
 @media (min-width:992px) and (max-width:1199.99px){
@@ -441,10 +695,7 @@
     
     }
 
-
-
-
-/* banner section end here */
+   /* banner section end here */
 
  /* card section start here */
  .card_section{
@@ -498,6 +749,91 @@
     margin-bottom: 20px;
 }
 /* progress bar section end here */
+
+/* recent project start here */
+.recent_project .title h4::before {
+    left: 4%;
+}
+
+.recent_project .card-body h2 {
+    width: 100%;
+    
+}
+
+.recent_project .card-body p {
+    width: 100%;
+    
+}
+
+.recent_project .row .card {
+    margin-top: 30px;
+    margin-bottom: 0px;
+   
+}
+
+.recent_project .common-btn {
+    margin: 30px auto;
+    margin-bottom: 60px;
+}
+/* recent project end here */
+
+ /* myportfolio start here */
+    
+ .row-gap-4 {
+    row-gap: 0.5rem !important;
+}
+/* myportfoli end here */
+
+ /* feedback section start here */
+ .portfolio_section {
+    padding-bottom: 20px;
+}
+
+.title h4::before {
+    left: 36%;
+}
+
+.title h4::after {
+    left: 32%;
+}
+
+.test .row .detail_info p {
+   width: 100%;
+    
+}
+
+.test .row .detail_info {
+  margin-bottom: 0;
+   
+}
+
+.test .box1 {
+    padding-left: 166px;
+}
+
+.test .box {
+    
+    margin-bottom:0;
+    
+}
+/* feedback section end here */
+
+/* contact section start here */
+.contact {
+    padding-top: 40px;
+    padding-bottom: 0;
+    
+}
+
+.contact .title h4::before {
+    left: 8%;
+}
+
+.contact .title h2 {
+    font-size: 55px;
+}
+/* contact section end here */
+
 }
 
 
@@ -524,6 +860,8 @@
         font-size: 30px;
         width: 100%;
         }
+
+     
 /* banner section end here */
 
 /* card section start here */
@@ -583,6 +921,57 @@
     margin-bottom: 20px;
 }
 /* progress bar section end here */
+
+ /* myportfolio start here */
+    
+ .row-gap-4 {
+    row-gap: 0.5rem !important;
+}
+/* myportfoli end here */
+
+ /* feedback section start here */
+ .portfolio_section {
+    padding-bottom: 20px;
+}
+
+
+
+.test .row .detail_info p {
+   width: 100%;
+    
+}
+
+.test .row .detail_info {
+  margin-bottom: 0;
+   
+}
+
+.test .box1 {
+    padding-left: 259px;
+}
+
+.test .box {
+    
+    margin-bottom:0;
+    
+}
+/* feedback section end here */
+
+/* contact section start here */
+.contact {
+    padding-top: 40px;
+    padding-bottom: 0;
+    
+}
+
+
+
+.contact .title h2 {
+    font-size: 60px;
+}
+/* contact section end here */
+
+
 }
 
 
