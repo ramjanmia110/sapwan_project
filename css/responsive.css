@@ -28,12 +28,16 @@
         
     }
 
-    
+    .button a {
+        padding: 16px 26px;
+       }
 
-   
+       .button a::after {
+        width: 145px;
+        height: 48px;
+       }
 
-
-    /* banner section start here */
+   /* banner section start here */
     .banner{
         padding: 58px 0;
             
@@ -59,12 +63,22 @@
         width:0;
         
         }
-    
-    
 
-
+        .banner .common-btn {
+            width: 160px;
+            height: 60px;
+            
+        }
     
-    /* banner section end here */
+       .banner .common-btn a::after {
+            width: 150px;
+            height: 51px;
+            top: -11px;
+            left: -47px;
+           
+        }
+    
+     /* banner section end here */
 
 
     /* card section start here */
@@ -99,20 +113,64 @@
 
     /* about section start here */
 
-    .progressbar{
-        padding-top: 80px;
-        padding-bottom: 120px;
+    .about {
+        padding: 20px 0;
     }
+    .about .box {
+       display: block;
+    }
+
+    .about .box .image_num1{
+        width: 75%;
+        margin: 0 auto;
+    }
+
     .about .box .image_num1 img {
-        width: 100%;
-        height: 480px;
+        width:100%;
+        height: auto ;
         object-fit: cover;
     }
+
+    .two-image {
+        display: block;
+        max-width: 100%;
+        margin: 20px auto;
+    }
+
+    .about .box .two-image .image_num2{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .about .box .two-image .image_num3{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    
+
+    .about .box .two-image .image_num2 img {
+        width:100%;
+        height: auto;
+       }
+
+    .about .box .two-image .image_num3 img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+   
+   .progressbar{
+        padding-top: 40px;
+        padding-bottom: 120px;
+    }
+   
 
     .about .title h2 {
         width: 100%;
         margin-top: 20px;
-        font-size: 25px;
+        font-size: 30px;
         margin-bottom: 20px;
     }
 
@@ -122,6 +180,20 @@
 
     .about .title h4::before {
         left: 9%;
+    }
+
+    .about .common-btn {
+        width: 160px;
+        height: 60px;
+        
+    }
+
+   .about .common-btn a::after {
+        width: 150px;
+        height: 51px;
+        top: -12px;
+        left: -21px;
+       
     }
     /* about section end here */
 
@@ -137,6 +209,12 @@
     /* progress bar section end here */
 
     /* recent project start here */
+
+    .recent_project .row .card {
+        width: 100%;
+        height: auto;
+        
+    }
     .recent_project .title h4::before {
         left: 8%;
     }
@@ -148,18 +226,33 @@
 
     .recent_project .card-body p {
         width: 100%;
-        
+        font-size: 15px;
     }
 
     .recent_project .row .card {
         margin-top: 30px;
         margin-bottom: 0px;
+        padding-bottom: 40px;
        
     }
 
     .recent_project .common-btn {
         margin: 30px auto;
         margin-bottom: 60px;
+    }
+
+    .recent_project .common-btn {
+        width: 160px;
+        height: 60px;
+        
+    }
+
+   .recent_project .common-btn a::after {
+        width: 150px;
+        height: 51px;
+        top: -12px;
+        left: -21px;
+       
     }
     /* recent project end here */
 
@@ -174,7 +267,8 @@
 
 
     .portfolio_section ul {
-        column-gap: 20px;
+        column-gap: 6px;
+        font-size: 14px;
        
     }
 
@@ -228,6 +322,47 @@
         left: 8%;
     }
     /* contact section end here */
+
+    /* blog section start here */
+
+   
+    .blog {
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+
+    .blog .card .card-body .card-title {
+        width: 100% !important;
+    }
+
+    .blog .card .card-body .card-text {
+        width: 100%;
+    }
+    /* blog section end here */
+
+
+    /* footer section start here */
+    .footer .footerOne {
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        
+        
+    }
+
+    .footer .footerOne li{
+        margin: 10px 0;
+        font-size: 20px;
+        
+    }
+
+    .footer .footer_icon i {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        
+    }
+    /* footer section end here */
 }
 
 
@@ -369,6 +504,12 @@
     /* progress bar section end here */
 
     /* recent project start here */
+
+    .recent_project .row .card {
+        width: 100%;
+        height: auto;
+        
+    }
     .recent_project .title h4::before {
         left: 8%;
     }
@@ -386,6 +527,7 @@
     .recent_project .row .card {
         margin-top: 30px;
         margin-bottom: 0px;
+        padding-bottom: 40px;
        
     }
 
@@ -438,6 +580,35 @@
     
     /* contact section end here */
 
+     /* blog section start here */
+
+   
+     .blog {
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+
+    .blog .card .card-body .card-title {
+        width: 100% !important;
+    }
+
+    .blog .card .card-body .card-text {
+        width: 100%;
+    }
+    /* blog section end here */
+
+
+    /* footer section start here  */
+    .footer .footerOne {
+        gap: 0 10px;
+        
+    }
+
+    .footer .footerOne li{
+        font-size: 16px;
+    }
+    /* footer section end here */
+
 
     
 }
@@ -482,7 +653,7 @@
         }
 
     .banner h1{
-        font-size: 70px;
+        font-size: 64px;
         line-height: 88px;
         width: 100%;
         
@@ -519,7 +690,7 @@
     }
     .title h2 {
      
-        font-size: 65px;
+        font-size: 50px;
         width: 100%;
         
     }
@@ -580,6 +751,11 @@
 
 
     /* recent project start here */
+    .recent_project .row .card {
+        width: 100%;
+        height: auto;
+        
+    }
     .recent_project .title h4::before {
         left: 6%;
     }
@@ -597,12 +773,14 @@
     .recent_project .row .card {
         margin-top: 30px;
         margin-bottom: 0px;
+        padding-bottom: 40px;
        
     }
 
     .recent_project .common-btn {
         margin: 30px auto;
         margin-bottom: 60px;
+        
     }
     /* recent project end here */
 
@@ -656,13 +834,36 @@
     }
 
     .contact .title h4::before {
-        left: 8%;
+        left: 6%;
     }
 
     .contact .title h2 {
         font-size: 43px;
     }
     /* contact section end here */
+
+     /* blog section start here */
+
+   
+     .blog {
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+
+    .blog .card .card-body .card-title {
+        width: 100% !important;
+    }
+
+    .blog .card .card-body .card-text {
+        width: 100%;
+    }
+    /* blog section end here */
+
+    /* footer section start here  */
+    .footer .footerOne {
+        gap: 0 35px;
+        }
+    /* footer section end here */
 
 }
 
@@ -674,7 +875,7 @@
     }
 
 .banner h1{
-    font-size: 90px;
+    font-size: 80px;
     line-height: 116px;
     width: 100%;
     
@@ -708,7 +909,7 @@
 }
 .title h2 {
  
-    font-size: 80px;
+    font-size: 68px;
     width: 100%;
     
 }
@@ -751,6 +952,11 @@
 /* progress bar section end here */
 
 /* recent project start here */
+.recent_project .row .card {
+    width: 100%;
+    height: auto;
+    
+}
 .recent_project .title h4::before {
     left: 4%;
 }
@@ -762,12 +968,14 @@
 
 .recent_project .card-body p {
     width: 100%;
+    font-size: 15px;
     
 }
 
 .recent_project .row .card {
     margin-top: 30px;
     margin-bottom: 0px;
+    padding-bottom: 40px;
    
 }
 
@@ -833,6 +1041,22 @@
     font-size: 55px;
 }
 /* contact section end here */
+ /* blog section start here */
+
+   
+ .blog {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.blog .card .card-body .card-title {
+    width: 100% !important;
+}
+
+.blog .card .card-body .card-text {
+    width: 100%;
+}
+/* blog section end here */
 
 }
 
@@ -850,14 +1074,14 @@
     }
 
     .banner h1{
-        font-size: 90px;
+        font-size: 85px;
         line-height: 116px;
         width: 100%;
         
      }
     
      .banner p {
-        font-size: 30px;
+        font-size: 26px;
         width: 100%;
         }
 
@@ -875,7 +1099,7 @@
 }
 .title h2 {
  
-    font-size: 84px;
+    font-size: 80px;
     width: 100%;
     
 }
@@ -970,6 +1194,23 @@
     font-size: 60px;
 }
 /* contact section end here */
+
+ /* blog section start here */
+
+   
+ .blog {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.blog .card .card-body .card-title {
+    width: 100% !important;
+}
+
+.blog .card .card-body .card-text {
+    width: 100%;
+}
+/* blog section end here */
 
 
 }
